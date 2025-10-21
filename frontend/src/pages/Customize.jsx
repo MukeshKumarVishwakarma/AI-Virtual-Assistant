@@ -1,5 +1,5 @@
 import React, { useContext, useRef, useState } from 'react'
-import Card from '../../components/Card'
+// import Card from '../../components/Card'
 import image1 from "../assets/image1-virtual-assistant.jpg"
 import image2 from "../assets/image2-virtual-assistant.jpg"
 import image3 from "../assets/image3-virtual-assistant.jpg"
@@ -11,6 +11,7 @@ import { RiUploadCloudFill } from "react-icons/ri";
 import { useNavigate } from 'react-router-dom'
 import { userDataContext } from '../context/UserContext'
 import { IoArrowBackOutline } from "react-icons/io5";
+import Card from '../components/Card'
 
 function Customize() {
   const {serverUrl,userData,setUserData,backendImage, 
